@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Geek</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #897d7d;
+            background-image: url('image/geek5.png');
+            background-size: cover; 
+            background-position: center; 
+        }
+        .container {
+            max-width: 350px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: left;
+        }
+        h1 {
+            color: #f9f5f5;
+            margin-bottom: 30px;
+        }
+        p {
+            color: #cfc1c1;
+            margin-bottom: 30px;
+            font-size: 20px;
+            font
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Junte-se à Comunidade Geek!</h1>
+        <p>Bem-vindo ao mundo dos geeks! Aqui, celebramos o universo de séries, filmes, animes, Jogos, Colecionáveis, Quadrinhos. Se cadastre para ficar por dentro das últimas novidades, discussões e eventos.</p>
+        <form action="#" method="post">
+            <input type="text" name="nome" placeholder="Nome completo" required>
+            <input type="email" name="email" placeholder="Endereço de e-mail" required>
+            <select name="interesses" multiple required>
+                <option value="series">Séries</option>
+                <option value="filmes">Filmes</option>
+                <option value="animes">Animes</option>
+                <option value="jogos">Jogos</option>
+                <option value="colecionaveis">Colecionáveis</option>
+                <option value="quadrinhos">Quadrinhos</option>
+                <!-- Adicione mais opções conforme necessário -->
+            </select>
+            <textarea name="mensagem" placeholder="Mensagem"></textarea>
+            <input type="submit" value="Participar Agora!">
+        </form>
+        <p></p>
+        <div class="video-container">
+                    
+    </div>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZdSQWk-g-YM?si=XagjrR3mp-_hmK9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p style="text-align:center;">© 2024, Fatec Zona Leste, Inc. Todos os direitos reservados.</p>
+</body>
+</html>
